@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+ 	<meta charset="iso 8601">
+ 	<title>Тег INPUT</title>
+ </head>
+ <body>
+ 	<h1>Отправка заявки на конференцию</h1>
+ 	<form name="test" method="post" action="input1.php">
+ 	<h2>Оcновные данные</h2>
+  	<p><b>* Фамилия, имя, отчество: </b><br>
+   	<input type="text" size="40">
+    <p><b> Дата рождения: </b><br>
+    <input id="date" type="date" value="дд.мм.гггг">
+  	<p><b> Пол:</b><Br>
+   	<input type="radio" name="browser" value="ie"> Мужской <Br>
+    <input type="radio" name="browser" value="opera"> Женский <Br></p>
+    <h1>Данные для создания личного кабинета</h1>
+    <p><b>* Адрес электронной почты: </b><br>
+    <input type="text" size="40">
+  <p>
+  	<b>* Пароль для создания личного кабинета </b><br>
+  </p>
+    <input type="text" size="40">
+    <p><b>* Подтверждения пароля: </b><br>
+    <input type="text" size="40">
+    <h1>Материалы для конференции</h1>
+ <p><b>* Тема доклада </b><br>
+    <input type="text" size="40">
+    <p><b>* Тезисы доклада (не более 1000 символов) </b><br>
+    <input type="text" size="1000">
+    <p><b> Файл призентации </b><br>
+    <input type="file" class="custom-file-input">
+    <h1>Дополнительные опции</h1>
+    <input type="radio" name="answer" value="a1">Проживание в отеле<Br>
+    <input type="radio" name="answer" value="a2">Завтрак<Br>
+    <input type="radio" name="answer" value="a3">Обед<Br>
+    <input type="radio" name="answer" value="a4">Ужин
+    <hr> 
+    <p><input type="submit"></p>
+
+ </body>
